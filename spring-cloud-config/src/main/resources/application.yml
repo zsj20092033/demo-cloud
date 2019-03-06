@@ -5,4 +5,5 @@ spring:
     config:
       server:
         git:
-          uri: file://${user.home}/config-repo
+          uri: https://github.com/zsj20092033/demo-cloud
+          search-paths: cloud-configs
